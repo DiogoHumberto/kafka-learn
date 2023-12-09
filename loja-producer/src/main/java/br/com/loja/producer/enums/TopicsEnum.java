@@ -4,7 +4,7 @@ import lombok.Getter;
 
 public enum TopicsEnum {
 	
-	LOJA_NOVO_PEDCOMP("LOJA.NOVO.PEDCOMP");
+	LOJA_NOVO_PEDCOMP("NOVO_PEDCOMP");
 	
 	@Getter
 	private String name;
