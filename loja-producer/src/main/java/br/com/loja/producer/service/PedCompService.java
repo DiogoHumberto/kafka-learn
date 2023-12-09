@@ -11,7 +11,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class PedCompService {
 	
-	private final KafkaTemplate<String, Object> kafkaTemplate;
+	private final KafkaTemplate<String, PedCompDto> kafkaTemplate;
 	
 	public PedCompDto savarNovoPedComp(PedCompDto pedCompDto) {
 		
